@@ -5,7 +5,7 @@
     justify-content: center;
     position: relative;
 }
-  
+
 .headerContainer {
     width: 100%;
     max-width: 1024px;
@@ -16,6 +16,9 @@
   margin: 20px 0px 0px 0px;
 }
 
+.headerDesc {
+  margin: 20px 0px;
+}
 
 .headerList {
     display: flex;
@@ -81,7 +84,7 @@
   .date {
     position: absolute;
     top: 50px;
-    /* z-index: 2; */
+    z-index: 2;
   }
 
   .options {

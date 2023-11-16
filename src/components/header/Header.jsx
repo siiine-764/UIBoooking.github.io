@@ -59,7 +59,8 @@ const Header = ({type }) => {
                     {/* end part headerList*/}
 
             {/* part search*/}
-{type !== "list" && <> <h1 className="headerTitle">
+        {type !== "list" && <>
+             <h1 className="headerTitle">
               A lifetime of discounts? It's Genius.
             </h1>
             <p className="headerDesc">
